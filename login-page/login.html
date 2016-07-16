@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="helikoper, helikoptery, helicopter, helicopters">
+        <meta name="description" content="Symulator helikoptera">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        
+        <div class="main-header row">
+                <div class="col-xs-4">
+                    <h1 class="main-header__h1">Company MS</h1>
+                </div>
+                <div class="col-xs-4">
+                    
+                </div>
+                <div class="col-xs-4">
+                    
+                </div>
+        </div>
+        
+        <div class="main-content">
+            
+            <div class="main-content__wrapper">
+                
+                <div id="box-login" class="box-login" data-function="box-login">
+                    
+                    <div class="box-login__logo">
+                        <!-- Position absolute dla [line-gray] i z-index = 50 -->
+                        <!-- Position absolute dla [logo] i z-index = 100 -->
+                        <img src="img/logo-logotype-small.png" alt="logo-logotype-small" class="box-login__logo__logo">
+                        <img src="img/line-gray.png" alt="line-gray" class="box-login__logo__line-gray">                    
+                    </div>
+                    
+                    <div class="box-login__form">
+                       <!-- <!-- stylizowanie inputów -->                     
+                        <input type="email" name="email" placeholder="Enter Email Adress" class="box-login__form__input"><br>
+                        <input type="password" name="password" placeholder="Password" class="box-login__form__input"><br>                      
+                        <!-- checkbox - versia 1 z html / versja 2 jako div (później będzie sterowany z JS) -->
+                        <input type="checkbox" name="keep_session" value="false"> Utrzymaj sesje logowania
+                        <!-- dodatkowe elementy graficzne obsadzamy jako tło w div, raczej nie używamy tagu [img] -->
+                       <div class="box-login__form__line-gray-down"></div>
+                    </div>
+                    
+                    <div class="box-login__links">
+                        <div class="box-login__links__item"><a href="#">Nie pamiętasz identyfikatora lub hasła?</a></div><br>
+                        <div class="box-login__links__item">Nie posiadasz konta w Company MS? <a href="#">Zarejestruj się</a></div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="main-footer col">
+            <div class="col-xs-12">
+                <div class="main-footer__links">
+                    <div class="main-footer__links__item"><a href="#">Stan systemu</a></div>
+                    <!--<div class="main-footer__links__separator"></div>-->
+                    <div class="main-footer__links__item"><a href="#">Polityka prywatności</a></div>
+                    <!--<div class="main-footer__links__separator"></div>-->
+                    <div class="main-footer__links__item"><a href="#">Warunki korzystania z usługi</a></div>
+                    <!--<div class="main-footer__links__separator"></div>-->
+                    <div class="main-footer__links__item">Copyright &copy 2016 T-Media</div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
